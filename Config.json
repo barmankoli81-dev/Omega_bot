@@ -1,0 +1,41 @@
+{
+  "BOT_TOKEN": "8968479150:AAFrP1NxcO-mj_ZU5JbhumEC0HbTLzjeIhA",
+  "OWNER_ID": 8968479150,
+  "START_IMAGE": "https://barmankoli81-dev.github.io/Host/rodix.jpg",
+  "DATA_DIR": "./dark_data",
+  "PAYLOADS_DIR": "./dark_payloads",
+  "LOGS_DIR": "./dark_logs",
+  "APIS": {
+    "NUMBER": "https://exploitsindia.site/demo/number.php?exploits={term}",
+    "AADHAAR": "https://exploitsindia.site/demo/aadhar.php?exploits={term}",
+    "FAMILY": "https://exploitsindia.site/demo/family.php?exploits={term}",
+    "PINCODE": "https://exploitsindia.site/demo/pincode.php?exploits={term}",
+    "IFSC": "https://exploitsindia.site/demo/ifsc.php?exploits={term}",
+    "TELEGRAM": "https://exploitsindia.site/demo/telegram.php?exploits={term}",
+    "INSTAGRAM": "https://exploitsindia.site/demo/instagram.php?exploits={term}",
+    "VEHICLE": "https://exploitsindia.site/demo/vehicle.php?exploits={term}",
+    "PAN": "https://exploitsindia.site/demo/pan.php?exploits={term}",
+    "VOTER": "https://exploitsindia.site/demo/voter.php?exploits={term}",
+    "DRIVING": "https://exploitsindia.site/demo/driving.php?exploits={term}",
+    "UPI": "https://exploitsindia.site/demo/upi.php?exploits={term}",
+    "GST": "https://exploitsindia.site/demo/gst.php?exploits={term}",
+    "IP": "http://ip-api.com/json/{ip}",
+    "WEATHER": "https://wttr.in/{city}?format=%C+%t+%w",
+    "NEWS": "https://saurav.tech/NewsAPI/top-headlines/category/technology/in.json",
+    "SHORTEN": "https://tinyurl.com/api-create.php?url={url}",
+    "BTC": "https://blockchain.info/q/addressbalance/{address}",
+    "HASH": "https://md5decrypt.net/en/Api/api.php?hash={hash}",
+    "PWNED": "https://api.pwnedpasswords.com/range/{prefix}",
+    "CRT": "https://crt.sh/?q=%25.{domain}&output=json",
+    "VIEWDNS": "https://api.viewdns.info/reverseip/?domain={domain}&apikey=demo&output=json"
+  },
+  "SMS_BOMB_APIS": [
+    "https://smsbomber.tech/api/send?number={number}&count=100",
+    "https://textbelt.com/bomb?number={number}",
+    "https://api.smsbomber.me/v1/send?to={number}&count=50"
+  ],
+  "CALL_BOMB_APIS": [
+    "https://callbomber.xyz/api/call?number={number}",
+    "https://callbomb.me/api?number={number}"
+  ]
+}
